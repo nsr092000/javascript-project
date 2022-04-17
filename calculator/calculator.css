@@ -1,0 +1,71 @@
+body{
+  background-color: rgb(22, 21, 21);
+  background-image: url(https://st4.depositphotos.com/4304307/39436/i/450/depositphotos_394363534-stock-photo-office-desktop-calculator-pen-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+header{
+  text-align: center;
+  font-size:40px;
+  color:rgb(12, 9, 9);
+  font-weight: bolder;
+  margin-top:10px;
+  font-style: italic;
+}
+
+.container{
+    max-width: 400px;
+    margin: 5vh auto 0 auto;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(15, 106, 76);
+    box-shadow: 10px 0px 15px 5px rgb(6, 1, 1);
+  }
+  
+  #display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color: white;
+
+  }
+  
+  .buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(145, 125, 125);
+  }
+  
+  .button {
+    border: 0.5px solid rgb(236, 227, 227);
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .button:hover{
+    border-color: green;
+    border-style: solid;
+    border-width: 3px;
+  }
+
+  .button.red:hover{
+    border-color: red;
+    border-style:solid;
+    border-width:4px;
+  }
+  
+  #equal {
+    background-color: rgb(131, 100, 100);
+    color: white;
+  }
+  
+  .button:hover{
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
