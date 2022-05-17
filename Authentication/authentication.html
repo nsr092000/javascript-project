@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <link rel="stylesheet" href="authentication.css">
+</head>
+<body>
+
+    <div class="center">
+
+        <div>
+
+            <div class="border">
+
+                <input id="signUpInput" type="password" onkeyup="passwordchecked()" placeholder="Create Your Password">
+            
+            <button onclick="signUp()">Sign Up</button>
+            <p id="passwordStrength"></p>
+            <p class="valid" id="sign-up-valid">Password Saved Successfully</p>
+        
+              </div>
+        
+              <div class="border">
+    
+                <input id="logInput" type="password" placeholder="Enter Password">
+            <button onclick="logIn()">Login</button>
+            <p class="valid" id="login-valid">Password Correct, Login Access granted</p>
+            <p class="Invalid" id="login-invalid">Password Incorrect, Login Denied</p>
+            
+       
+              </div>
+    
+
+
+        </div>
+
+        
+
+    </div>
+        
+    <script src="authentication.js"></script>
+    
+</body>
+</html>
