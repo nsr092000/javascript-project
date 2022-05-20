@@ -1,0 +1,56 @@
+body{
+    margin: 30px;
+    background-color: antiquewhite;
+}
+
+h1{
+    font-size: 45px;
+}
+
+input{
+
+    display: block;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    width: 80%;
+    height: 40px;
+    background-color: rgb(17, 15, 11);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.container{
+    text-align: center;
+}
+
+div.statusBlock{
+   border-style: solid;
+   height: 80px;
+   font-size: 20px;
+   margin-top: 25px;
+   border-radius: 5px;
+   border-width: 2px;
+   padding-top: 30px;
+   background-color: rgb(2, 56, 2);
+   display: none;
+   color: white;
+}
+
+button{
+    border-style: solid;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 25px;
+    width: 20%;
+    background-color: rgb(200, 251, 251);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: green;
+}
