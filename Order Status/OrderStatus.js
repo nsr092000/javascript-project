@@ -22,7 +22,11 @@ let pizzabaked = document.getElementById("pizzaBaked");
 let oreganoadded = document.getElementById("oreganoAdded");
 let packagerecived = document.getElementById("packageRecieved")
 let package = document.getElementById("packageHandover");
+let value = false;
 
+function refresh(){
+            window.location.reload();
+} 
 
 const callbackfunc = ()=>{
     let packagehandover = document.getElementById('packageHandover')
@@ -33,14 +37,17 @@ const callbackfunc = ()=>{
 }
 
 
-
 const executeOrder = (callback) => {
 
     let orderId = document.getElementById("OrderId").value
-
+    
+    if(value){
+        alert('Click on CLEAR button and then enter the new Order-Id!')
+        return
+    }
+    
     if(orderId){
-
-        
+    value = true;
     orderplaced.style.display = "block"
     orderplaced.innerText = `${orderId} :- Order Placed`
    
