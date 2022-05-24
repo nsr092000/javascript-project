@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+
+h3{
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container{
+    height: 600px;
+    width: 600px;
+}
+
+.borderline{
+    border: solid;
+    height: 140px;
+    background-color: rgb(252, 252, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 600;
+}
