@@ -1,0 +1,44 @@
+
+h1{
+    font-weight:500;
+    font-size: 45px;
+}
+
+.orderIdInput{
+ text-align:center;   
+ width:50%;
+ margin: 20px auto;
+}
+
+.execute{
+    display:block;
+    margin: auto;
+}
+
+.layout{
+    border-radius: 0 0 15px 15px;
+}
+
+.card{
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.headingstyle{
+    background-color: brown;
+    color: white;
+}
+
+.statuss{
+    width: 100%;
+    font-size: 1.1em;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+
+#emptyimage{
+    width: 250px;
+    margin: 60px auto;
+}
