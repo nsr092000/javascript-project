@@ -1,0 +1,97 @@
+h1{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+.cart{
+    width: 100px;
+    height: 80px;
+    display: block;
+    margin: 25px auto;
+}
+
+.container{
+    padding:0;
+    margin: 20px auto;
+}
+
+.outer{
+    height:100vh;
+}
+
+.card{
+    margin: 10px;
+}
+
+.outer .col-md-4{
+    padding:0;
+}
+
+.todosection{
+    border: 1px solid black;
+    height: 100%;
+    margin: 10px;
+    background-color: gray;
+}
+
+.buttonstyle{
+    width:100%;
+    background-color: rgb(185, 6, 6);
+    height: 50px;
+    border: none;
+}
+
+.buttonstyle:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.heading{
+     display: flex;
+     justify-content: start;
+}
+
+span{
+    border: none;
+    border-radius: 15px;
+    padding:5px;
+    color: white;
+}
+
+.header{
+    height: 30px;
+}
+
+.card-body-medium{
+    background-color: burlywood;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.card-body-high{
+    background-color: #fb7d7d;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.card-body-low{
+    background-color: #226b76;;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.displaydate{
+    color: #08090a;
+    float: right;
+}
+
+.buttonposition{
+    float: right;
+}
